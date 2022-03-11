@@ -1,0 +1,41 @@
+Arguments: 
+  E:\תוכנות\node.exe C:\Users\sagi misan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sagi misan\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Microsoft Emulator Manager\1.0;C:\Program Files\dotnet;E:\תוכנות\gradle-6.6.1\bin;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\sagi misan\AppData\Local\Android\Sdk\build-tools\30.0.2;C:\Python34\Scripts;E:\תוכנות;C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Microsoft Emulator Manager\1.0;C:\Program Files\dotnet;E:\תוכנות;E:\תוכנות\gradle-6.6.1\bin;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\sagi misan\AppData\Local\Android\Sdk\build-tools\30.0.2;C:\Python34\Scripts;C:\Users\sagi misan\AppData\Local\Programs\Python\Launcher;C:\Users\sagi misan\AppData\Local\Microsoft\WindowsApps;C:\Python37\Scripts;C:\Users\sagi misan\AppData\Local\GitHubDesktop\bin;C:\Users\sagi misan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sagi misan\AppData\Local\gitkraken\bin;C:\Users\sagi misan\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, rmdir 'C:\superim\node_modules\puppeteer\.local-chromium\win64-961656\chrome-win'
+
+npm manifest: 
+  {
+    "name": "superim",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "fs": "^0.0.1-security",
+      "puppeteer": "^13.4.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
